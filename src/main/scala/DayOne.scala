@@ -51,7 +51,6 @@ object DayOnePartTwo:
             case Success (n) => n
             case Failure (_) => converter (item)
 
-        //println (s"$matched - $reverseMatched")
         10 * attempt (matched, mapper) + attempt (reverseMatched, reverseMapper)
 
     println (digits.sum)
