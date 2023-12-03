@@ -18,4 +18,4 @@ target/
 ### Sundries
 .bsp/
 project/
-.idea
+.metals
