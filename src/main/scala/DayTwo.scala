@@ -89,7 +89,7 @@ object DayTwoPartTwo:
         DayTwo.parse (line)
     val result =
       samples
-        .map { case (id, contents) => DayTwo.container.minBound (contents).power }
+        .map { case (_, contents) => DayTwo.container.minBound (contents).power }
         .sum
 
     println (result)

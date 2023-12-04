@@ -32,7 +32,6 @@ object DayOnePartTwo:
     Map ("orez" -> 0, "eno" -> 1, "owt" -> 2, "eerht" -> 3, "ruof" -> 4,
       "evif" -> 5, "xis" -> 6, "neves" -> 7, "thgie" -> 8, "enin" -> 9)
 
-  @main
   def solution (): Unit =
     val data = fromFile ("./data/dayone.txt")
 
