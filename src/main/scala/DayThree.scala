@@ -2,6 +2,7 @@ import scala.util.matching.Regex
 import scala.io.Source.fromFile
 import scala.math.{max, min}
 
+
 object DayThree:
 
   case class Range (from: Int, until: Int):
@@ -68,7 +69,7 @@ object DayThreePartOne:
     data.close ()
 
 object DayThreePartTwo:
-  @main
+
   def solution () =
     val data = fromFile ("data/daythree.txt")
     val lines = data.getLines.toArray

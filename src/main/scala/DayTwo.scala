@@ -61,7 +61,7 @@ object DayTwo:
 
 object DayTwoPartOne:
 
-  def solve () =
+  def solution () =
     val data = fromFile ("./data/daytwo.txt")
 
     val samples =
@@ -78,8 +78,8 @@ object DayTwoPartOne:
     data.close ()
 
 object DayTwoPartTwo:
-  @main
-  def solve () =
+  
+  def solution () =
     val data = fromFile ("./data/daytwo.txt")
 
     val samples =
